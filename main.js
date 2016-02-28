@@ -4,5 +4,6 @@ $(document).ready(function(){
   paper.setup(document.getElementById('mainCanvas'));
 
   // TODO
-  paper.view.draw();
+  var c = Shape.Circle(200, 200, 50);
+  c.fillColor = 'green';
 });
